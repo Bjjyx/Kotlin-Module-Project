@@ -1,3 +1,9 @@
+import screens.FirstScreen
+import storages.Archive
+
 fun main(args: Array<String>) {
-    println("Hello World!")
+
+    val array: ArrayList<Archive> = arrayListOf()
+    FirstScreen(array).userInterface()
+
 }

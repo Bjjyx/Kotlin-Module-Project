@@ -1,3 +1,6 @@
+import screens.ChooseArchive
+import java.util.Scanner
+
 fun main(args: Array<String>) {
-    println("Hello World!")
+    ChooseArchive(arrayListOf(), Scanner(System.`in`)).interactionWithUser()
 }

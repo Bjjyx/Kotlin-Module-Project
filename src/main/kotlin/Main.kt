@@ -1,9 +1,6 @@
-import screens.FirstScreen
-import storages.Archive
+import screens.ChooseArchive
+import java.util.Scanner
 
 fun main(args: Array<String>) {
-
-    val array: ArrayList<Archive> = arrayListOf()
-    FirstScreen(array).userInterface()
-
+    ChooseArchive(arrayListOf(), Scanner(System.`in`)).interactionWithUser()
 }
